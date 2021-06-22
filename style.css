@@ -2,22 +2,68 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-    background-color: rgb(131, 131, 255);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
 }
-h2, ul, li, p{
+h2, ul, li{
     font-size: 1.5em;
-    color: #fff;
+    color: #000;
+    background-color: #fff;
 }
-p{
-    margin-left: 20px;
+ul{
+    position: relative;
+    width: 385px;
+    top: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    flex-direction: column;
+    height: 84.5vh;
+    overflow: scroll;
 }
 li{
-    font-size: 1em;
+    word-wrap: break-word;
+    width: fit-content;
+    background-color: rgb(206, 206, 206);
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    font-size: .7em;
 }
 input{
     height: 30px;
 }
 .texto{
-    width: 150px;
+    width: 90%;
+    margin: auto;
     height: 23.8px;
+}
+.chatbox{
+    position: absolute;
+}
+#itens{
+    position: absolute;
+    list-style: none;
+    top: 25px;
+}
+.header{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(212, 212, 212);
+}
+.header p{
+    font-size: 1em;
+    text-align: center;
+}
+.inputs{
+    position: fixed;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    top: 90%;
 }
