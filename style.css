@@ -20,14 +20,15 @@ ul{
     align-items: flex-end;
     justify-content: right;
     flex-direction: column;
-    height: 84.5vh;
+    height: 83vh;
     overflow: scroll;
 }
 li{
     word-wrap: break-word;
     width: fit-content;
+    max-width: 92%;
     background-color: rgb(206, 206, 206);
-    border-radius: 10px;
+    border-radius: 10px 0 10px  10px;
     padding: 5px 5px;
     margin: 5px 5px;
     font-size: .7em;
@@ -49,7 +50,7 @@ input{
     top: 25px;
 }
 .header{
-    position: absolute;
+    position: fixed;
     top: 0;
     z-index: 2;
     height: 50px;
