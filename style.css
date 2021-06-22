@@ -1,0 +1,23 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(131, 131, 255);
+}
+h2, ul, li, p{
+    font-size: 1.5em;
+    color: #fff;
+}
+p{
+    margin-left: 20px;
+}
+li{
+    font-size: 1em;
+}
+input{
+    height: 30px;
+}
+.texto{
+    width: 150px;
+    height: 23.8px;
+}
